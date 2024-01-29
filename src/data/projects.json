@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Project A",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the live weather forecasting",
+    "skills": ["Html","Css", "Flask", "Python"],
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Project B",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the latest emerging courses",
+    "skills": ["React", "Express", "Node", "Mongodb"],
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Project C",
+    "imageSrc": "projects/project.png",
+    "description": "This is a project made to learn the health prediction model for cartoon characters using random forest algorithm.",
+    "skills": ["Html", "Css", "ML", "Flask"],
+    "source": "https://www.github.com"
+  }
+]

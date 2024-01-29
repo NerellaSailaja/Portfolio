@@ -1,0 +1,51 @@
+/* Achievements.module.css */
+#achi {
+  background-color: #ffffff; /* Set background color to white */
+  padding: 20px;
+}
+
+.achievementsContainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.heading {
+  text-align: center;
+  color: white;
+}
+
+.achievementsList {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Arrange achievements in a 2x2 grid */
+  gap: 20px; /* Add some space between achievements */
+}
+
+.achievementItem {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.achievementTitle {
+  color: #3498db;
+  margin-bottom: 10px;
+}
+
+.achievementDescription {
+  color: white;
+}
+
+/* Optional: Styles for unlocked achievements */
+.unlockButton {
+  display: none; /* Hide the unlock button */
+}
+
+.unlockedText {
+  color: #27ae60;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
